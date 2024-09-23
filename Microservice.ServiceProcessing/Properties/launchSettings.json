@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Microservice.ServiceProcessing": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Microservice.ServiceCapture": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Microservice.ServiceQueue": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
