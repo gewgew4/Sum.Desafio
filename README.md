@@ -9,13 +9,28 @@ Para facilitar la lectura y visualización, se separaron los proyectos de la sigu
 	- Se agregaron los archivos Dockerfile correspondientes
 
 ## Prerequisitos
-- Se deben cumplimentar los requisitos para el correcto funcionamiento de OpenCVCSharp: https://github.com/shimat/opencvsharp?tab=readme-ov-file#ubuntu
+- Se deben cumplimentar los requisitos para el correcto funcionamiento de OpenCVCSharp en los microservicios en docker: https://github.com/shimat/opencvsharp?tab=readme-ov-file#ubuntu
 
 ## Requisitos
 - Docker for desktop
 - Docker Compose
 
-## Instrucciones de uso
+## Instrucciones de uso para la consola (desafío 1)
+1. Clonar el repositorio
+2. Establecer al proyecto Cam.Con como proyecto de inicio
+3. Ejecutar la aplicación
+
+## Instrucciones de uso para el Windows Form (desafío 2)
+1. Clonar el repositorio
+2. Establecer al proyecto Cam.WF como proyecto de inicio
+3. Ejecutar la aplicación
+4. Con el ComboBox se puede elegir si se utilizará la webcam o un archivo
+	* Clic en "Select file" para seleccionar un archivo
+	* Alternativamente, dejar seleccionado "Webcam (default)" para utilizar la cámara detectada
+5. Clic en "Start" para que inicie la operación. Se verá el resultado en el Form
+6. Una vez terminada la operación, clic en "Stop" para liberar los servicios
+
+## Instrucciones de uso para los microservicios (desafío 3/4)
 1. Clonar el repositorio
 2. Navegar al directorio del proyecto
 3. Ejecutar `docker-compose up --build`
